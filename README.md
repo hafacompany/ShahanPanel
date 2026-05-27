@@ -111,7 +111,7 @@ To run the SSH Panel, your server must meet the following requirements:
 
 1. **One Click Installation:**
 ````
-bash <(curl -Ls https://raw.githubusercontent.com/HamedAp/Ssh-User-management/master/install.sh --ipv4)
+bash <(curl -Ls https://raw.githubusercontent.com/hafacompany/Ssh-User-management/master/install.sh --ipv4)
 ````
 
 ## Free vs. Pro Version
