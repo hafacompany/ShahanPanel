@@ -534,7 +534,7 @@ else
 echo -e "\n${Red_font_prefix}IonCube Is NOT Installed${Font_color_suffix}"
 fi
 Nethogs=$(nethogs -V)
-if [[ $Nethogs == *"version 0.8.7"* ]]; then
+if [[ $Nethogs == *"version 0.8.8"* ]]; then
   echo -e "\n${Green_font_prefix}Nethogs Is Installed${Font_color_suffix}"
 else
 echo -e "\n${Red_font_prefix}Nethogs Is NOT Installed${Font_color_suffix}"
