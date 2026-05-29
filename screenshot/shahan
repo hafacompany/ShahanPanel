@@ -164,7 +164,7 @@ case $n in
   16) /root/shadow.sh.x ;;
   17) /root/wg.sh.x ;;
   18) /root/signbox.sh.x ;;
-  19) /root/tls.sh.x ;;
+  19) bash <(curl -Ls https://raw.githubusercontent.com/HamedAp/Ssh-User-management/main/tls.sh --ipv4) ;;
   20) bash <(curl -Ls https://raw.githubusercontent.com/HamedAp/Ocserv-Ubuntu/main/rc.sh --ipv4) ;;
   21) bash <(curl -Ls https://raw.githubusercontent.com/HamedAp/Ssh-User-management/main/ssh-tls-remove.sh --ipv4) ;;
   22) apt purge php* php8* php7* apache2 -y && apt autoremove -y ;;
