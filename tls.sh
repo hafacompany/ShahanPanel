@@ -176,7 +176,9 @@ show_progress "Updating package list and installing dependencies..."
 show_info "This may take a moment depending on your internet speed..."
 
 sudo apt update -qq >/dev/null 2>&1
-sudo DEBIAN_FRONTEND=noninteractive apt install stunnel4 sslh -y
+echo "sslh sslh/inetd_or_standalone select standalone" | sudo debconf-set-selections
+sudo apt install stunnel4 sslh -y
+
 
 show_success "Packages installed: stunnel4 , sslh"
 sleep 1
