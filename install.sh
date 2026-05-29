@@ -66,9 +66,6 @@ sudo wget -q -4 -O /usr/local/bin/shahancheck https://raw.githubusercontent.com/
 wait
 sudo chmod a+rx /usr/local/bin/shahancheck
 clear
-sudo wget -q -4 -O /root/tls.sh.x https://github.com/HamedAp/Ssh-User-management/raw/main/tls.sh.x &
-wait
-sudo chmod a+rx /root/tls.sh.x
 sudo wget -q -4 -O /root/wg.sh.x https://shahanpanel.com/wg.sh.x &
 wait
 sudo chmod a+rx /root/wg.sh.x
