@@ -326,7 +326,7 @@ fi
 update_install_info "${green}Php Ioncube Installed $plain"
 
 Nethogs=$(nethogs -V)
-if [[ $Nethogs == *"version 0.8.7"* ]]; then
+if [[ $Nethogs == *"version 0.8.8"* ]]; then
   echo "Nethogs Is Installed :)"
 else
 bash <(curl -Ls https://raw.githubusercontent.com/HamedAp/Nethogs-Json/main/install.sh --ipv4)
