@@ -66,9 +66,6 @@ sudo wget -q -4 -O /usr/local/bin/shahancheck https://raw.githubusercontent.com/
 wait
 sudo chmod a+rx /usr/local/bin/shahancheck
 clear
-sudo wget -q -4 -O /root/tls.sh.x https://github.com/HamedAp/Ssh-User-management/raw/main/tls.sh.x &
-wait
-sudo chmod a+rx /root/tls.sh.x
 sudo wget -q -4 -O /root/wg.sh.x https://shahanpanel.com/wg.sh.x &
 wait
 sudo chmod a+rx /root/wg.sh.x
@@ -326,7 +323,7 @@ fi
 update_install_info "${green}Php Ioncube Installed $plain"
 
 Nethogs=$(nethogs -V)
-if [[ $Nethogs == *"version 0.8.7"* ]]; then
+if [[ $Nethogs == *"version 0.8.8"* ]]; then
   echo "Nethogs Is Installed :)"
 else
 bash <(curl -Ls https://raw.githubusercontent.com/HamedAp/Nethogs-Json/main/install.sh --ipv4)
@@ -534,7 +531,7 @@ else
 echo -e "\n${Red_font_prefix}IonCube Is NOT Installed${Font_color_suffix}"
 fi
 Nethogs=$(nethogs -V)
-if [[ $Nethogs == *"version 0.8.7"* ]]; then
+if [[ $Nethogs == *"version 0.8.8"* ]]; then
   echo -e "\n${Green_font_prefix}Nethogs Is Installed${Font_color_suffix}"
 else
 echo -e "\n${Red_font_prefix}Nethogs Is NOT Installed${Font_color_suffix}"

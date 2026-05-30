@@ -4,7 +4,7 @@ sudo sed -i 's/Listen 0.0.0.0:8443/Listen 0.0.0.0:443/g' /etc/apache2/ports.conf
 systemctl stop stunnel4
 systemctl stop sslh
 
-apt remove stunnel4 sslh -y
+apt purge stunnel4 sslh -y
 rm -fr /etc/stunnel
 rm -fr /etc/default/sslh
 
